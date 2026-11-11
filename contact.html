@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MySpace |Contact Me </title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">My<span>Space</span></a>
+
+    <button class="menu-btn" id="menuBtn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <nav class="nav" id="navMenu">
+
+        <button class="close-btn" id="closeBtn">&times;</button>
+
+        <a href="index.html">Home</a>
+        <a href="Education.html">Education</a>
+        <a href="skills.html">Skills</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html" class="active">Contact Me</a>
+
+    </nav>
+
+</header>
+
+
+<main>
+
+    <section class="page-header">
+
+        <h1>Contact Me</h1>
+
+        <p>Feel free to get in touch with me.</p>
+
+    </section>
+
+
+    <section class="container contact-layout">
+
+
+        <article class="contact-info">
+
+            <span class="small-heading">CONTACT INFORMATION</span>
+
+            <h2>Let's Talk!</h2>
+
+            <p>
+                Thank you for visiting my personal website.
+                If you have any questions, suggestions,
+                or opportunities, feel free to contact me.
+            </p>
+
+
+            <div class="contact-detail">
+
+                <i class="fas fa-envelope"></i>
+
+                <div>
+
+                    <h3>Email Address</h3>
+
+                    <p>Esayassoft67@gmail.com</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <i class="fas fa-location-dot"></i>
+
+                <div>
+
+                    <h3>Location</h3>
+
+                    <p>Injibara, Ethiopia</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-detail">
+
+                <i class="fas fa-laptop-code"></i>
+
+                <div>
+
+                    <h3>Interests</h3>
+
+                    <p>Technology, Software Engineering and Learning</p>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <form class="contact-form"
+              action="mailto:Esayassoft67@gmail.com"
+              method="post"
+              enctype="text/plain">
+
+            <h2>Send Me a Message</h2>
+
+
+            <label for="name">Full Name</label>
+
+            <input type="text"
+                   id="name"
+                   name="Name"
+                   placeholder="Enter your full name"
+                   required>
+
+
+            <label for="email">Email Address</label>
+
+            <input type="email"
+                   id="email"
+                   name="Email"
+                   placeholder="Enter your email"
+                   required>
+
+
+            <label for="subject">Subject</label>
+
+            <input type="text"
+                   id="subject"
+                   name="Subject"
+                   placeholder="Enter the subject"
+                   required>
+
+
+            <label for="message">Message</label>
+
+            <textarea id="message"
+                      name="Message"
+                      rows="6"
+                      placeholder="Write your message here"
+                      required></textarea>
+
+
+            <button type="submit" class="btn" onclick="alert('Your are secussfuly sent!')">
+
+                Send Message <i class="fas fa-paper-plane"></i>
+
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <p>&copy; 2026 Esayas Alemayehu. All Rights Reserved.</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
